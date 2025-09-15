@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { use, useEffect, useState } from "react";
 
 const teams = [
     "Team Liquid",
@@ -14,7 +14,12 @@ const teams = [
 function TeamSelect() {
     return (
         <div className = "App">
-            <h1> Hello World</h1>
+            <h1> Select a Team </h1>
+            <ul>
+                {teams.map((team) => (
+                    <li key={team}>{team}</li>
+                ))}
+            </ul>
         </div>
     );
 }
