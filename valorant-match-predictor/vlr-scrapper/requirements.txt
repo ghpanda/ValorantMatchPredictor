@@ -1,0 +1,15 @@
+# Web scraping
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# Data handling
+pandas==2.2.2
+
+# Database (PostgreSQL driver)
+psycopg2-binary==2.9.9
+
+# AWS SDK (for S3 / DynamoDB if needed later)
+boto3==1.35.21
+
+# Testing
+pytest==8.3.2

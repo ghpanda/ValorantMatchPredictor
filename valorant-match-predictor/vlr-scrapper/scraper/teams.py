@@ -34,22 +34,21 @@ def getAllTeams():
             # print("COUNTRY:", country)
             # Get Points
             points = team.select("td")[1].get_text(strip=True)
-            # print("POINTS:", points)
+            points = int(points.replace("points", "").strip())
             
             teams.append({
                 "team_name": team_name,
                 "country": country,
                 "points": points,
-                "link": link,
+                "team_url": link,
                 "region": region_name,
             })
         regions.append({
-            "Region": region_name,
-            "Teams": teams,
+            "region": region_name,
+            "teams": teams,
         })
 
     # Save to JSON file
-    os.makedirs("data/teams.json", exist_ok=True)
     with open("data/teams.json", "w", encoding="utf-8") as f:
         json.dump(regions, f, indent=4)
 
@@ -58,4 +57,4 @@ def getAllTeams():
 
 if __name__ == "__main__":
     data = getAllTeams()
-    pprint(data)
+    # pprint(data)

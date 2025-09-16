@@ -1,0 +1,344 @@
+[
+    {
+        "region": "Americas Championship",
+        "teams": [
+            {
+                "team_name": "G2 Esports",
+                "country": "United States",
+                "points": 30,
+                "team_url": "https://www.vlr.gg/team/11058/g2-esports",
+                "region": "Americas Championship"
+            },
+            {
+                "team_name": "Sentinels",
+                "country": "United States",
+                "points": 20,
+                "team_url": "https://www.vlr.gg/team/2/sentinels",
+                "region": "Americas Championship"
+            },
+            {
+                "team_name": "NRG",
+                "country": "United States",
+                "points": 11,
+                "team_url": "https://www.vlr.gg/team/1034/nrg",
+                "region": "Americas Championship"
+            },
+            {
+                "team_name": "MIBR",
+                "country": "Brazil",
+                "points": 9,
+                "team_url": "https://www.vlr.gg/team/7386/mibr",
+                "region": "Americas Championship"
+            },
+            {
+                "team_name": "Cloud9",
+                "country": "United States",
+                "points": 9,
+                "team_url": "https://www.vlr.gg/team/188/cloud9",
+                "region": "Americas Championship"
+            },
+            {
+                "team_name": "KR\u00dc Esports",
+                "country": "Argentina",
+                "points": 7,
+                "team_url": "https://www.vlr.gg/team/2355/kr-esports",
+                "region": "Americas Championship"
+            },
+            {
+                "team_name": "Evil Geniuses",
+                "country": "United States",
+                "points": 6,
+                "team_url": "https://www.vlr.gg/team/5248/evil-geniuses",
+                "region": "Americas Championship"
+            },
+            {
+                "team_name": "100 Thieves",
+                "country": "United States",
+                "points": 6,
+                "team_url": "https://www.vlr.gg/team/120/100-thieves",
+                "region": "Americas Championship"
+            },
+            {
+                "team_name": "LEVIAT\u00c1N",
+                "country": "Argentina",
+                "points": 4,
+                "team_url": "https://www.vlr.gg/team/2359/leviat-n",
+                "region": "Americas Championship"
+            },
+            {
+                "team_name": "2Game Esports",
+                "country": "Brazil",
+                "points": 2,
+                "team_url": "https://www.vlr.gg/team/15072/2game-esports",
+                "region": "Americas Championship"
+            },
+            {
+                "team_name": "LOUD",
+                "country": "Brazil",
+                "points": 1,
+                "team_url": "https://www.vlr.gg/team/6961/loud",
+                "region": "Americas Championship"
+            }
+        ]
+    },
+    {
+        "region": "China Championship",
+        "teams": [
+            {
+                "team_name": "Bilibili Gaming",
+                "country": "China",
+                "points": 19,
+                "team_url": "https://www.vlr.gg/team/12010/bilibili-gaming",
+                "region": "China Championship"
+            },
+            {
+                "team_name": "EDward Gaming",
+                "country": "China",
+                "points": 17,
+                "team_url": "https://www.vlr.gg/team/1120/edward-gaming",
+                "region": "China Championship"
+            },
+            {
+                "team_name": "Xi Lai Gaming",
+                "country": "China",
+                "points": 16,
+                "team_url": "https://www.vlr.gg/team/13581/xi-lai-gaming",
+                "region": "China Championship"
+            },
+            {
+                "team_name": "Dragon Ranger Gaming",
+                "country": "China",
+                "points": 11,
+                "team_url": "https://www.vlr.gg/team/11981/dragon-ranger-gaming",
+                "region": "China Championship"
+            },
+            {
+                "team_name": "Wolves Esports",
+                "country": "China",
+                "points": 10,
+                "team_url": "https://www.vlr.gg/team/13790/wolves-esports",
+                "region": "China Championship"
+            },
+            {
+                "team_name": "Trace Esports",
+                "country": "China",
+                "points": 8,
+                "team_url": "https://www.vlr.gg/team/12685/trace-esports",
+                "region": "China Championship"
+            },
+            {
+                "team_name": "FunPlus Phoenix",
+                "country": "China",
+                "points": 5,
+                "team_url": "https://www.vlr.gg/team/11328/funplus-phoenix",
+                "region": "China Championship"
+            },
+            {
+                "team_name": "TYLOO",
+                "country": "China",
+                "points": 4,
+                "team_url": "https://www.vlr.gg/team/731/tyloo",
+                "region": "China Championship"
+            },
+            {
+                "team_name": "Titan Esports Club",
+                "country": "China",
+                "points": 4,
+                "team_url": "https://www.vlr.gg/team/14137/titan-esports-club",
+                "region": "China Championship"
+            },
+            {
+                "team_name": "Nova Esports",
+                "country": "China",
+                "points": 4,
+                "team_url": "https://www.vlr.gg/team/12064/nova-esports",
+                "region": "China Championship"
+            },
+            {
+                "team_name": "All Gamers",
+                "country": "China",
+                "points": 4,
+                "team_url": "https://www.vlr.gg/team/1119/all-gamers",
+                "region": "China Championship"
+            },
+            {
+                "team_name": "JDG Esports",
+                "country": "China",
+                "points": 2,
+                "team_url": "https://www.vlr.gg/team/13576/jdg-esports",
+                "region": "China Championship"
+            }
+        ]
+    },
+    {
+        "region": "EMEA Championship",
+        "teams": [
+            {
+                "team_name": "Team Liquid",
+                "country": "Europe",
+                "points": 19,
+                "team_url": "https://www.vlr.gg/team/474/team-liquid",
+                "region": "EMEA Championship"
+            },
+            {
+                "team_name": "FNATIC",
+                "country": "Europe",
+                "points": 18,
+                "team_url": "https://www.vlr.gg/team/2593/fnatic",
+                "region": "EMEA Championship"
+            },
+            {
+                "team_name": "Team Heretics",
+                "country": "Europe",
+                "points": 14,
+                "team_url": "https://www.vlr.gg/team/1001/team-heretics",
+                "region": "EMEA Championship"
+            },
+            {
+                "team_name": "BBL Esports",
+                "country": "Turkey",
+                "points": 12,
+                "team_url": "https://www.vlr.gg/team/397/bbl-esports",
+                "region": "EMEA Championship"
+            },
+            {
+                "team_name": "GIANTX",
+                "country": "Europe",
+                "points": 9,
+                "team_url": "https://www.vlr.gg/team/14419/giantx",
+                "region": "EMEA Championship"
+            },
+            {
+                "team_name": "Natus Vincere",
+                "country": "Europe",
+                "points": 9,
+                "team_url": "https://www.vlr.gg/team/4915/natus-vincere",
+                "region": "EMEA Championship"
+            },
+            {
+                "team_name": "Team Vitality",
+                "country": "Europe",
+                "points": 8,
+                "team_url": "https://www.vlr.gg/team/2059/team-vitality",
+                "region": "EMEA Championship"
+            },
+            {
+                "team_name": "Karmine Corp",
+                "country": "Europe",
+                "points": 5,
+                "team_url": "https://www.vlr.gg/team/8877/karmine-corp",
+                "region": "EMEA Championship"
+            },
+            {
+                "team_name": "FUT Esports",
+                "country": "Turkey",
+                "points": 4,
+                "team_url": "https://www.vlr.gg/team/1184/fut-esports",
+                "region": "EMEA Championship"
+            },
+            {
+                "team_name": "KOI",
+                "country": "Europe",
+                "points": 2,
+                "team_url": "https://www.vlr.gg/team/7035/koi",
+                "region": "EMEA Championship"
+            },
+            {
+                "team_name": "Gentle Mates",
+                "country": "Europe",
+                "points": 1,
+                "team_url": "https://www.vlr.gg/team/12694/gentle-mates",
+                "region": "EMEA Championship"
+            }
+        ]
+    },
+    {
+        "region": "Pacific Championship",
+        "teams": [
+            {
+                "team_name": "Paper Rex",
+                "country": "Singapore",
+                "points": 22,
+                "team_url": "https://www.vlr.gg/team/624/paper-rex",
+                "region": "Pacific Championship"
+            },
+            {
+                "team_name": "T1",
+                "country": "South Korea",
+                "points": 16,
+                "team_url": "https://www.vlr.gg/team/14/t1",
+                "region": "Pacific Championship"
+            },
+            {
+                "team_name": "Rex Regum Qeon",
+                "country": "Indonesia",
+                "points": 16,
+                "team_url": "https://www.vlr.gg/team/878/rex-regum-qeon",
+                "region": "Pacific Championship"
+            },
+            {
+                "team_name": "DRX",
+                "country": "South Korea",
+                "points": 12,
+                "team_url": "https://www.vlr.gg/team/8185/drx",
+                "region": "Pacific Championship"
+            },
+            {
+                "team_name": "Gen.G",
+                "country": "South Korea",
+                "points": 12,
+                "team_url": "https://www.vlr.gg/team/17/gen-g",
+                "region": "Pacific Championship"
+            },
+            {
+                "team_name": "TALON",
+                "country": "Thailand",
+                "points": 11,
+                "team_url": "https://www.vlr.gg/team/8304/talon",
+                "region": "Pacific Championship"
+            },
+            {
+                "team_name": "Nongshim RedForce",
+                "country": "South Korea",
+                "points": 6,
+                "team_url": "https://www.vlr.gg/team/11060/nongshim-redforce",
+                "region": "Pacific Championship"
+            },
+            {
+                "team_name": "BOOM Esports",
+                "country": "Indonesia",
+                "points": 5,
+                "team_url": "https://www.vlr.gg/team/466/boom-esports",
+                "region": "Pacific Championship"
+            },
+            {
+                "team_name": "ZETA DIVISION",
+                "country": "Japan",
+                "points": 4,
+                "team_url": "https://www.vlr.gg/team/5448/zeta-division",
+                "region": "Pacific Championship"
+            },
+            {
+                "team_name": "DetonatioN FocusMe",
+                "country": "Japan",
+                "points": 3,
+                "team_url": "https://www.vlr.gg/team/278/detonation-focusme",
+                "region": "Pacific Championship"
+            },
+            {
+                "team_name": "Global Esports",
+                "country": "India",
+                "points": 2,
+                "team_url": "https://www.vlr.gg/team/918/global-esports",
+                "region": "Pacific Championship"
+            },
+            {
+                "team_name": "Team Secret",
+                "country": "Philippines",
+                "points": 2,
+                "team_url": "https://www.vlr.gg/team/6199/team-secret",
+                "region": "Pacific Championship"
+            }
+        ]
+    }
+]
