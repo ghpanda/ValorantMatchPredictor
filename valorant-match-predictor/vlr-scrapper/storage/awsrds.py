@@ -66,7 +66,7 @@ def insert_players(team_name, players_data):
                 player["role"],
                 player["profile_url"],
                 ))
-        print(f"Players for {team_name} have been inserted successfully.")
+        print(f"Player for {team_name} have been inserted successfully.")
     conn.commit()
     cur.close()
     conn.close()
@@ -77,10 +77,16 @@ def insert_staff(team_name, staff_data):
     cur = conn.cursor()
 
     for staff_member in staff_data:
+        cur.execute("SELECT team_id FROM TEAMS WHERE team_name = %s;", (team_name,))
+        team_id = cur.fetchone()[0]  # Extract the actual ID from the tuple
         cur.execute("""
-            INSERT INTO PLAYERS (team_id, ign, name, role, profile_url)
+            INSERT INTO STAFF (team_id, ign, full_name, role_, profile_url)
             VALUES (%s, %s, %s, %s, %s)
-            ON CONFLICT (ign) DO NOTHING;
+            ON CONFLICT (ign) 
+            DO UPDATE SET
+                team_id = EXCLUDED.team_id,
+                full_name = EXCLUDED.full_name,
+                profile_url = EXCLUDED.profile_url;
             """, (
                 team_id,
                 staff_member["ign"],
@@ -88,7 +94,8 @@ def insert_staff(team_name, staff_data):
                 staff_member["role"],
                 staff_member["profile_url"],
                 ))
+        print(f"Staff for {team_name} have been inserted successfully.")
     conn.commit()
     cur.close()
     conn.close()
-    print("Staff data inserted successfully.")
+    

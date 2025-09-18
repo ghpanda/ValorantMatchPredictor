@@ -14,6 +14,6 @@ if __name__ == "__main__":
             # Scrape Players for each team
             players, staff = scrape_players(team["team_url"])
             insert_players(team_name=team["team_name"], players_data=players)
-            # insert_staff(team_name=team["team_name"], staff_data=staff)
+            insert_staff(team_name=team["team_name"], staff_data=staff)
             
     # Insert into AWS RDS
