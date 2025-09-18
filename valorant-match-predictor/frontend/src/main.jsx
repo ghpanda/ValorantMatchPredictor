@@ -1,21 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./App";
-import Home from "./pages/Home";
-import Prediction from "./pages/Prediction";
+function App() {
+  return (
+    <div className="App">
+      <h1>Hello World!</h1>
+    </div>
+  );
+}
 
-import "./index.css"; // Tailwind or your styles
-
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />}>
-          <Route index element={<Home />} />
-          <Route path="predict" element={<Prediction />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>
-);
+export default App;
